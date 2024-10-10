@@ -1,0 +1,165 @@
+/*el * sirve para que los margenes y la separacion esten pegados y se pueda editar */
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/*menu*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+    background-color: rgb(216, 16, 16);
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+     text-decoration: none;
+     color: white;
+
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.356);
+    transition: 1s;
+    border-radius: 4px;
+    color: crimson;
+}
+
+/*detalles*/
+.banner{
+    height: 250px;
+}
+
+.parrafo1{
+    background-color: rgba(165, 42, 42, 0.568);
+    padding: 30px;
+    margin: 30px;
+    font-size: 20px;
+}
+p{
+    color: white;
+}
+.logo{
+    height: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.parrafo2{
+    padding: 20px;
+    font-size: 24px;
+}
+h2{
+    color: rgb(39, 1, 1);
+}
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 50px;
+
+}
+
+/*Freddy-FNAF*/
+.freddy{
+    background-color: rgba(165, 42, 42, 0.466);
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+}
+.freddy p{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Freddy{
+    margin: 30px;
+    background-color: rgb(66, 32, 8);
+}
+
+.freddy img{
+    height: 500px;
+}
+
+/*Chica-FNAF*/
+.Chica{
+    background-color: rgba(165, 42, 42, 0.466);
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Chica img{
+    height: 500px;
+}
+.Chica p{
+    margin: 15px;
+}
+
+.chica{
+    margin: 30px;
+    background-color: darkgoldenrod;
+}
+
+/*Foxy-FNAF*/
+
+.Foxy img{
+    height: 500px;
+}
+
+
+.Foxy{
+    background-color: rgba(165, 42, 42, 0.466);
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Foxy p{
+    margin: 15px;
+}
+
+.foxy{
+    margin: 30px;
+    background-color: rgb(175, 7, 7);
+}
+
+/*Bonnie-FNAF*/
+.Bonnie img{
+    height: 500px;
+}
+.Bonnie{
+    background-color: rgba(165, 42, 42, 0.466);
+    padding: 40px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Bonnie p{
+    margin: 15px;
+}
+
+.bonnie{
+    margin: 30px;
+    background-color: rgb(90, 28, 105);
+}
+
